@@ -1,0 +1,50 @@
+1. Garments- http://www.csszengarden.com/220/
+
+	Design Selection
+-------------------------------------------*/
+.design-selection { margin: 3em 0 0; }
+	.design-selection ul { list-style: none; width: 94%; margin: 0 auto; }
+	.design-selection ul:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+		.design-selection li { float: left; width: 50%; font-size: 1.2rem; margin: 0 0 1em; color: #aaa; }
+		.design-selection li:nth-child(odd) { width: 47%; padding-right: 3%; clear: left; }
+
+			.design-name { display: block; font-size: 1.4rem; font-weight: bold; margin: 0 0 0.24em; text-transform: uppercase; letter-spacing: 0.1em; position: relative; }
+			.design-name:after { background: none; opacity: 0; }
+			.design-name:hover { font-style: italic; }
+			
+			.designer-name { color: #7989a3; }
+			.designer-name:after, footer a:after { height: 1px; }
+
+
+.select:after { content: "Washes & Styles"; font-size: 1.8rem; text-align: center; width: 7em; margin: 0 auto 2em; background: 
+
+2. A Robot Named Jimmy- http://www.csszengarden.com/215/
+.supporting {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-top: 5px solid #dd3b2a;
+    border-bottom: 5px solid #2babe1;
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 3;
+}
+
+3. Apothecary- http://www.csszengarden.com/218/
+
+<div class="preamble" id="zen-preamble" role="article">
+			<h3>The Road to Enlightenment</h3>
+			<p>Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible <abbr title="Document Object Model">DOM</abbr>s, broken <abbr title="Cascading Style Sheets">CSS</abbr> support, and abandoned browsers.</p>
+			<p>We must clear the mind of the past. Web enlightenment has been achieved thanks to the tireless efforts of folk like the <abbr title="World Wide Web Consortium">W3C</abbr>, <abbr title="Web Standards Project">WaSP</abbr>, and the major browser creators.</p>
+			<p>The CSS Zen Garden invites you to relax and meditate on the important lessons of the masters. Begin to see with clarity. Learn to use the time-honored techniques in new and invigorating fashion. Become one with the web.</p>
+		</div>
+.preamble h3 {
+  margin:  0.5em auto 0.55em;
+  padding: 0.5em 0 0.55em;
+  font-family: "grecian-light-face",sans-serif;
+  font-size: 1.5em;
+  line-height: 1;
+  background: 
+    url('img-lg-horiz-border.png') repeat-x top right,
+    url('img-lg-horiz-border.png') repeat-x bottom left;
+  background-size: 13em;
+}
